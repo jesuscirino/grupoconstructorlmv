@@ -106,6 +106,17 @@ section {
     gap: 1rem;
 }
 
+.project-item {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.project-item.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
 .project-item img {
     width: 100%;
     height: auto;

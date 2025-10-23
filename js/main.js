@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const sectionTitles = document.querySelectorAll('.section-title');
+    const animatedElements = document.querySelectorAll('.section-title, .project-item');
 
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 observer.unobserve(entry.target);
             }
         });
-    }, { threshold: 0.5 });
+    }, { threshold: 0.1 });
 
-    sectionTitles.forEach(title => {
-        observer.observe(title);
+    animatedElements.forEach(element => {
+        observer.observe(element);
     });
 });
