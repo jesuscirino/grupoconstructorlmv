@@ -48,4 +48,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     type();
+
+    const videos = document.querySelectorAll('.video-item video');
+    const videoObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.play();
+            } else {
+                entry.target.pause();
+            }
+        });
+    }, { threshold: 0.5 });
+
+    videos.forEach(video => {
+        videoObserver.observe(video);
+    });
 });

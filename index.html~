@@ -20,6 +20,7 @@
                 <li><a href="#nosotros">Nosotros</a></li>
                 <li><a href="#servicios">Servicios</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#videos">Videos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
@@ -28,7 +29,7 @@
     <main>
         <section id="inicio">
             <div class="hero">
-                <h1>Construyendo el futuro, proyecto a proyecto.</h1>
+                <h1></h1>
                 <p>Calidad, compromiso y eficiencia en cada obra.</p>
             </div>
         </section>
@@ -62,6 +63,7 @@
         <section id="proyectos">
             <h2 class="section-title">Proyectos Destacados</h2>
             <div class="projects-grid">
+                <div class="folder-separator"><h3>Proyectos FOTOS</h3></div>
                 <div class="project-item"><img src="IMAGES/FOTOS/1.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS/11.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS/12.jpeg" alt="Proyecto"></div>
@@ -79,7 +81,6 @@
                 <div class="project-item"><img src="IMAGES/FOTOS/26.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS/27.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS/28.jpeg" alt="Proyecto"></div>
-                <div class="project-item"><img src="IMAGES/FOTOS/29.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS/3.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS/30.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS/31.jpeg" alt="Proyecto"></div>
@@ -91,6 +92,7 @@
                 <div class="project-item"><img src="IMAGES/FOTOS/7.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS/8.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS/9.jpeg" alt="Proyecto"></div>
+                <div class="folder-separator"><h3>Proyectos FOTOS2</h3></div>
                 <div class="project-item"><img src="IMAGES/FOTOS2/1.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS2/10.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS2/11.jpeg" alt="Proyecto"></div>
@@ -109,6 +111,7 @@
                 <div class="project-item"><img src="IMAGES/FOTOS2/24.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS2/26.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS2/28.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/FOTOS2/29.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS2/3.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS2/30.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS2/31.jpeg" alt="Proyecto"></div>
@@ -124,6 +127,38 @@
                 <div class="project-item"><img src="IMAGES/FOTOS2/7.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS2/8.jpeg" alt="Proyecto"></div>
                 <div class="project-item"><img src="IMAGES/FOTOS2/9.jpeg" alt="Proyecto"></div>
+                <div class="folder-separator"><h3>Proyectos V</h3></div>
+                <div class="project-item"><img src="IMAGES/V/10.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/16.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/17.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/20.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/22.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/25.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/27.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/29.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/35.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/36-2.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/36.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/37.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/38.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/4.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/40.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/41.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/42.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/43.jpeg" alt="Proyecto"></div>
+                <div class="project-item"><img src="IMAGES/V/44.jpeg" alt="Proyecto"></div>
+            </div>
+        </section>
+
+        <section id="videos">
+            <h2 class="section-title">Videos</h2>
+            <div class="videos-grid">
+                <div class="video-item">
+                    <video controls>
+                        <source src="VIDEOS/WhatsApp Video 2024-09-09 at 4.20.12 PM.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                </div>
             </div>
         </section>
 
