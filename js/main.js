@@ -1,5 +1,24 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const animatedElements = document.querySelectorAll('.section-title, .project-item');
+    const particlesContainer = document.getElementById('particles');
+    for (let i = 0; i < 50; i++) {
+        const particle = document.createElement('div');
+        particle.classList.add('particle');
+        particle.style.left = Math.random() * 100 + '%';
+        particle.style.animationDelay = Math.random() * 8 + 's';
+        particle.style.animationDuration = (Math.random() * 4 + 6) + 's';
+        particlesContainer.appendChild(particle);
+    }
+
+    setTimeout(() => {
+        const animationContainer = document.getElementById('animation-container');
+        animationContainer.style.display = 'none';
+    }, 8000);
+
+    const animatedElements = document.querySelectorAll('.section-title, .project-item, .video-item');
+
+    animatedElements.forEach((element, index) => {
+        element.style.transitionDelay = `${index * 0.1}s`;
+    });
 
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {

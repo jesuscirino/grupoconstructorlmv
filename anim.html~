@@ -5,37 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grupo Constructor LMV</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animation.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="animation-container">
-        <div class="hero">
-            <div class="grid-background"></div>
-            
-            <div class="particles" id="particles"></div>
-
-            <div class="buildings-container">
-                <div class="building" style="--building-height: 250px;"></div>
-                <div class="building" style="--building-height: 320px;"></div>
-                <div class="building" style="--building-height: 180px;"></div>
-                <div class="building" style="--building-height: 280px;"></div>
-                <div class="building" style="--building-height: 200px;"></div>
-            </div>
-
-            <div class="road">
-                <div class="road-lines"></div>
-            </div>
-
-            <div class="content">
-                <h1>Grupo Constructor LMV</h1>
-                <p class="tagline">Edificando el Futuro, Conectando Destinos</p>
-                <button class="cta-button">Descubre Más</button>
-            </div>
-        </div>
-    </div>
     <header>
         <nav>
             <div class="logo">

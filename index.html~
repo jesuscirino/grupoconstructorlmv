@@ -5,11 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grupo Constructor LMV</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="animation-container">
+        <div class="hero">
+            <div class="grid-background"></div>
+            
+            <div class="particles" id="particles"></div>
+
+            <div class="buildings-container">
+                <div class="building" style="--building-height: 250px;"></div>
+                <div class="building" style="--building-height: 320px;"></div>
+                <div class="building" style="--building-height: 180px;"></div>
+                <div class="building" style="--building-height: 280px;"></div>
+                <div class="building" style="--building-height: 200px;"></div>
+            </div>
+
+            <div class="road">
+                <div class="road-lines"></div>
+            </div>
+
+            <div class="content">
+                <h1>CONSTRUCTORA LMV</h1>
+                <p class="tagline">Edificando el Futuro, Conectando Destinos</p>
+                <button class="cta-button">Descubre Más</button>
+            </div>
+        </div>
+    </div>
     <header>
         <nav>
             <div class="logo">
@@ -153,11 +179,169 @@
         <section id="videos">
             <h2 class="section-title">Videos</h2>
             <div class="videos-grid">
+                <div class="folder-separator"><h3>Videos H</h3></div>
                 <div class="video-item">
-                    <video controls>
-                        <source src="VIDEOS/WhatsApp Video 2024-09-09 at 4.20.12 PM.mp4" type="video/mp4">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/H/10.mp4" type="video/mp4">
                         Tu navegador no soporta el tag de video.
                     </video>
+                    <div class="video-footer">
+                        <h3>10.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/H/12.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>12.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/H/14.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>14.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/H/15.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>15.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/H/18.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>18.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/H/5.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>5.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/H/6.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>6.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/H/7.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>7.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/H/8.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>8.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/H/9.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>9.mp4</h3>
+                    </div>
+                </div>
+                <div class="folder-separator"><h3>Videos V</h3></div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/V/1.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>1.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/V/11.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>11.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/V/13.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>13.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/V/16.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>16.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/V/17.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>17.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/V/2.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>2.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/V/3.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>3.mp4</h3>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <video loop muted playsinline>
+                        <source src="VIDEOS/V/4.mp4" type="video/mp4">
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="video-footer">
+                        <h3>4.mp4</h3>
+                    </div>
                 </div>
             </div>
         </section>
